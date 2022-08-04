@@ -1,0 +1,74 @@
+/* comments */
+/* * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+} */
+.container {
+  display: grid;
+  grid-template-rows: 10vh 90vh;
+  background-image: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* navbar section start */
+.navbar {
+  background-color: #ada;
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+.logo {
+  /* background-color: #6f6f6f; */
+  margin: auto;
+  height: 40px;
+}
+nav div:nth-child(1) {
+  text-align: center;
+}
+.grow-list .list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.button-small {
+  margin-left: 50%;
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: rgb(160, 60, 160);
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+}
+/* navbar section end */
+/* hero section start */
+.hero {
+  text-align: center;
+  margin-top: 12%;
+}
+.hero-heading {
+  font-size: 60px;
+  font-weight: 800;
+  padding: 0 40px;
+  margin: 10px 10%;
+  color: #fff;
+}
+.hero-description {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 5%;
+}
+.button-large {
+  background-color: rgb(160, 60, 160);
+  border: none;
+  border-radius: 7px;
+  font-size: 30px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 3%;
+}
+/* hero section end */
