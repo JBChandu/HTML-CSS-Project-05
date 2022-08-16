@@ -72,3 +72,33 @@ nav div:nth-child(1) {
   margin-top: 3%;
 }
 /* hero section end */
+
+/* media queries */
+@media only screen and (max-width: 1050px) {
+  .button-small {
+    padding: 1px 5px;
+    font-size: 12px;
+    border-radius: 7px;
+    margin-left: 0;
+  }
+  .grow-list {
+    display: none;
+  }
+  .navbar div:last-child {
+    grid-column: 4/5;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 717px) {
+  .button-large {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  .hero-heading {
+    font-size: 36px;
+  }
+  .hero-description {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
